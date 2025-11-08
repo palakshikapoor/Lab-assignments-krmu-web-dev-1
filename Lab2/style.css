@@ -1,0 +1,221 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+/* Header */
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #002b5c;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+nav ul {
+    padding: 10px 0;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    padding: 10px 15px;
+    
+}
+nav ul li a:hover {
+    background-color: #004aad;
+    border-radius: 5px;
+}
+/* Sections */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+section h2 {
+    color: #004aad;
+}
+
+/* Profile Image */
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+/* Projects*/
+#projects {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#projects h2 {
+  color: #0056d2;
+  margin-bottom: 30px;
+}
+
+.project-box {
+  background-color: white;
+  width: 60%;
+  margin: 20px auto;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 6px black;
+  
+}
+
+.project-box h3 {
+  color: #0056d2;
+  margin-bottom: 10px;
+}
+
+.project-box p {
+  color:black;
+}
+
+.project-box:hover {
+  
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+/* Table Styles */
+table {
+    margin: 0 auto;
+    width: 60%;
+   
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+th {
+    background-color: blue;
+    color: white;
+}
+tr {
+    background-color: white;
+}
+/* ===== Contact Section ===== */
+#contact {
+  background-color: #f5f5f5;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#contact h2 {
+  color: #0056d2;
+  margin-bottom: 30px;
+}
+
+/* Form Box */
+form {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 2px solid #0056d2;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Labels */
+label {
+  display: block;
+  font-weight: 600;
+  margin-top: 15px;
+  color: #333;
+}
+
+/* Input Fields */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: 1px solid #0056d2;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  resize: none;
+}
+
+/* Send Button */
+form button {
+  background-color: #0056d2;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+form button:hover {
+  background-color: blue;
+}
+
+/* Buttons */
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+   
+}
+button:hover {
+    background-color: rgb(0, 0, 75);
+}
+
+/* ===== Back to Top Button ===== */
+#backToTop {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  background-color: #0056d2;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  
+  
+}
+
+#backToTop:hover {
+  background-color: #003f91;
+}
+
+
+
+/* Horizontal Rule */
+hr {
+  border: none;
+  border-top: 1px solid #383535;
+  width: 100%;
+  margin: 30px auto;
+}
+
+/* Footer */
+footer {
+    background-color: #002856;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
