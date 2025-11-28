@@ -54,6 +54,8 @@ The project uses **three required breakpoints**:
 | **Tablet** | ~768px | Stacks sections vertically, centers elements |
 | **Mobile** | ≤480–600px | Single-column layout, full-width buttons, compressed spacing |
 
+
+
 ### Techniques Used
 - **Flexbox** → header, hero section, app section, promo section  
 - **CSS Grid** → featured restaurants, testimonials  
@@ -61,5 +63,17 @@ The project uses **three required breakpoints**:
 - **CSS Transitions** → hover animations on cards & buttons  
 - **Keyframe Animation** → floating effect for app   
 
+## How to Run / View the Site
+Option 1 – Open locally
+
+Download or clone the project folder
+Open index.html in any browser
+
+
+Option 2 – Use Live Server 
+If you’re using VS Code:
+Install the Live Server extension
+Right-click index.html
+Click "Open with Live Server"
 
 
